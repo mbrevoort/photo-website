@@ -1,0 +1,20 @@
+{
+  "name": "photo-website",
+  "version": "0.0.0",
+  "description": "A simple website with thumbnails for photos",
+  "main": "server.js",
+  "dependencies": {
+    "gm": "~1.13.3",
+    "async": "~0.2.9",
+    "watch": "~0.8.0",
+    "express": "~3.4.5",
+    "exif2": "0.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "Mike Brevoort <mike@brevoort.com>",
+  "license": "BSD"
+}
