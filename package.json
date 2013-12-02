@@ -8,7 +8,8 @@
     "async": "~0.2.9",
     "watch": "~0.8.0",
     "express": "~3.4.5",
-    "exif2": "0.0.1"
+    "exif2": "0.0.1",
+    "jade": "~0.35.0"
   },
   "devDependencies": {},
   "scripts": {

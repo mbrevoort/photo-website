@@ -1,0 +1,8 @@
+<ul>
+  <li ng-repeat="item in directory | filter: { isDirectory: true }">
+    <a href="/{{item.path}}">{{item.path}}</a>
+  </li>
+</ul>
+<div style="clear:both; text-align: center" keep-scroll="scrollY">
+    <img ng-repeat="item in directory | filter: { isImage: true }" alt="{{item.path}}" ng-src="/api/sm/{{item.path}}" ng-click="viewDetail(item)" class="img-thumbnail fade in img-responsive sm"></img>
+</div>
